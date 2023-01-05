@@ -49,6 +49,10 @@
 .icons:hover {
   transform: translateY(-5px);
   transition: 0.3s;
-  border-radius: 15px;
+  border-radius: 13px;
   background-color: rgb(197, 194, 194);
+}
+
+.icons:last-child:hover {
+  border-radius: 30px;
 }
