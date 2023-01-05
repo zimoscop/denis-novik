@@ -45,3 +45,10 @@
   justify-content: space-between;
   margin-top: 79px;
 }
+
+.icons:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+  border-radius: 15px;
+  background-color: rgb(197, 194, 194);
+}
