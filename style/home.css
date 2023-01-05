@@ -30,6 +30,7 @@
 }
 
 .home__rightitlebox {
+  /* почему не срабатывает text-align: left;? */
   text-align: right;
   height: 44px;
   width: 156px;
