@@ -22,7 +22,14 @@
           <h1 class="home__title">Denis Novic</h1>
           <p class="home__text">UX|UI designer 24&nbspyears old, Minsk</p>
         </div>
-        <img src="./images/Homesvg.jpg" alt="Denis_Novic_foto" />
+        <picture>
+          <source
+            srcset="./images/home_foto_adop.svg"
+            media="(max-width: 555px)"
+          />
+          <source srcset="./images/DN-home.svg" />
+          <img src="./images/DN-home.svg" alt="Main - foto" />
+        </picture>
       </div>
     </header>
     <main>

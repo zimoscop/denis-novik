@@ -16,6 +16,10 @@
   margin-top: 43px;
 }
 
+.portfolio__out:hover {
+  color: rgba(130, 130, 130, 1);
+}
+
 @media (max-width: 985px) {
   .portfolio__box {
     max-width: 90%;

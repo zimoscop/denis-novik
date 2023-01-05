@@ -5,6 +5,7 @@
 .home__nav {
   height: 24px;
   padding: 33px 0 41px;
+  color: rgba(130, 130, 130, 1);
   border-bottom: 1px solid rgba(130, 130, 130, 1);
   margin-bottom: 32px;
   display: flex;
@@ -29,8 +30,17 @@
   text-align: left;
 }
 
-@media (max-width: 985px) {
-  .home__box {
-    max-width: 90%;
+@media (max-width: 555px) {
+  .home__nav {
+    display: none;
+  }
+
+  .home__titlebox {
+    flex-direction: column;
+    margin-left: 26px;
+  }
+
+  .home {
+    padding-bottom: 65px;
   }
 }
