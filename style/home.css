@@ -1,14 +1,9 @@
 .home {
   padding-bottom: 104px;
 }
-.home__box {
-  max-width: 940px;
-  margin: auto;
-}
 
 .home__nav {
   height: 24px;
-  width: 940px;
   padding: 33px 0 41px;
   border-bottom: 1px solid rgba(130, 130, 130, 1);
   margin-bottom: 32px;
@@ -17,29 +12,21 @@
 }
 
 .home__titlebox {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0 40px;
+}
+
+.home__title {
   height: 123px;
   width: 118px;
-  margin: 40x 0 10px;
-  float: left;
-  display: block;
 }
 
-.home__lefttitle {
-  font-size: 47px;
-  line-height: 59px;
-}
-
-.home__rightitlebox {
-  /* почему не срабатывает text-align: left;? */
-  text-align: right;
-  height: 44px;
-  width: 156px;
-  margin: 95px 0 50px;
-  display: block;
-  float: right;
-}
-.home__rightitlebox > :first-child {
-  padding-right: 37px;
+.home__text {
+  width: 155px;
+  display: flex;
+  align-items: flex-end;
+  text-align: left;
 }
 
 @media (max-width: 985px) {
