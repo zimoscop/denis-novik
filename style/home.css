@@ -1,0 +1,48 @@
+.home {
+  padding-bottom: 104px;
+}
+.home__box {
+  max-width: 940px;
+  margin: auto;
+}
+
+.home__nav {
+  height: 24px;
+  width: 940px;
+  padding: 33px 0 41px;
+  border-bottom: 1px solid rgba(130, 130, 130, 1);
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home__titlebox {
+  height: 123px;
+  width: 118px;
+  margin: 40x 0 10px;
+  float: left;
+  display: block;
+}
+
+.home__lefttitle {
+  font-size: 47px;
+  line-height: 59px;
+}
+
+.home__rightitlebox {
+  text-align: right;
+  height: 44px;
+  width: 156px;
+  margin: 95px 0 50px;
+  display: block;
+  float: right;
+}
+.home__rightitlebox > :first-child {
+  padding-right: 37px;
+}
+
+@media (max-width: 985px) {
+  .home__box {
+    max-width: 90%;
+  }
+}

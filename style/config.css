@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.conteiner {
+  margin: 0 auto;
+  max-width: 940px;
+}
+
+body {
+  font-family: "Gilroy", sans-serif;
+  font-weight: normal;
+  color: #070707;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 42px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 42px;
+}
+
+p {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: auto;
+  pointer-events: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+}
+
+a:hover {
+  color: black;
+}
+
+@media (max-width: 1024px) {
+  .conteiner {
+    max-width: 90%;
+  }
+}

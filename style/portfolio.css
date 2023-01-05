@@ -1,0 +1,23 @@
+.portfolio {
+  background-color: rgba(246, 246, 246, 1);
+  padding: 112px 0 96px;
+}
+
+.portfolio__box {
+  display: flex;
+  flex-direction: column;
+  gap: 98px;
+}
+
+.portfolio__out {
+  color: black;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 43px;
+}
+
+@media (max-width: 985px) {
+  .portfolio__box {
+    max-width: 90%;
+  }
+}

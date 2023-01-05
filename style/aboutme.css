@@ -1,0 +1,14 @@
+.aboutme {
+  background-color: rgba(246, 246, 246, 1);
+  padding: 120px 0 107px;
+}
+
+.aboutme__box {
+  max-height: 506px;
+  width: 485px;
+  overflow: hidden;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 43px;
+}

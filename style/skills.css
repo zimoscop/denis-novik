@@ -1,0 +1,49 @@
+.skills {
+  padding: 91px 0 110px 0;
+}
+
+.skills__text {
+  text-align: center;
+  margin: 69px 0 83px;
+}
+
+.skills__box {
+  /* max-width: 940px;
+  margin: auto; */
+  display: flex;
+  justify-content: space-between;
+}
+.skills__box_item {
+  width: 166px;
+}
+
+.skills__box_name {
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+  margin: 23px auto 41px;
+  max-width: 78px;
+  min-height: 34px;
+}
+
+.skills__box_icon {
+  height: 88px;
+}
+
+.item__rate {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.item__star {
+  display: block;
+  width: 26px;
+  height: 26px;
+}
+@media (max-width: 985px) {
+  .skills__box {
+    max-width: 90%;
+  }
+}

@@ -1,0 +1,47 @@
+.contacts {
+  padding: 114px 0 123px;
+}
+
+.contacts__box {
+  width: 343px;
+  margin: auto;
+}
+
+.contacts__text {
+  margin: 25px 0 30px;
+}
+.button {
+  height: 38px;
+  width: 166px;
+  text-decoration: none;
+  padding: 3px 0 3px;
+  background-color: black;
+  color: rgba(255, 255, 255, 1);
+  border-radius: 20px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  border: none;
+}
+
+.button:hover {
+  color: black;
+  background-color: rgba(255, 255, 255, 1);
+  border: 2px solid black;
+}
+
+.contacns__textend {
+  height: 34px;
+  width: 243px;
+  padding: 45px 0 123px;
+  color: rgba(130, 130, 130, 1);
+  font-size: 14px;
+  line-height: 17px;
+  margin: auto;
+}
+
+.contacts__flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 79px;
+}
