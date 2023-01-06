@@ -3,7 +3,7 @@
 }
 
 .contacts__box {
-  width: 343px;
+  max-width: 343px;
   margin: auto;
 }
 
@@ -19,8 +19,6 @@
   color: rgba(255, 255, 255, 1);
   border-radius: 20px;
   text-align: center;
-  display: block;
-  margin: auto;
   border: none;
 }
 

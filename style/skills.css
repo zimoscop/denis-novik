@@ -1,5 +1,5 @@
 .skills {
-  padding: 91px 0 110px 0;
+  padding: 91px 0 110px;
 }
 
 .skills__text {
@@ -10,6 +10,7 @@
 .skills__box {
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
 }
 .skills__box_item {
   width: 166px;
@@ -40,8 +41,27 @@
   width: 26px;
   height: 26px;
 }
+
+@media (max-width: 1024px) {
+  .skills {
+    padding: 83px 0 98px;
+  }
+}
+
 @media (max-width: 985px) {
   .skills__box {
     max-width: 90%;
+  }
+}
+
+@media (max-width: 970px) {
+  .skills__text {
+    margin: 50px 0 70px;
+  }
+  .skills__box {
+    flex-wrap: wrap;
+    max-width: 500px;
+    gap: 80px;
+    justify-content: center;
   }
 }
