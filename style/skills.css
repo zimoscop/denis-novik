@@ -8,8 +8,6 @@
 }
 
 .skills__box {
-  /* max-width: 940px;
-  margin: auto; */
   display: flex;
   justify-content: space-between;
 }

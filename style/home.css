@@ -1,16 +1,17 @@
-.home {
-  padding-bottom: 104px;
-  transition: 0.3s;
+header {
+  padding: 33px 0 33px;
+  border-bottom: 1px solid rgba(130, 130, 130, 1);
 }
 
 .home__nav {
   height: 24px;
-  padding: 33px 0 41px;
   color: rgba(130, 130, 130, 1);
-  border-bottom: 1px solid rgba(130, 130, 130, 1);
-  margin-bottom: 32px;
   display: flex;
   justify-content: space-between;
+}
+
+.home {
+  padding-bottom: 104px;
 }
 
 .home__titlebox {
@@ -43,5 +44,9 @@
 
   .home {
     padding-bottom: 65px;
+  }
+
+  header {
+    border: none;
   }
 }

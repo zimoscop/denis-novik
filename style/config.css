@@ -2,6 +2,9 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+html {
   scroll-behavior: smooth;
 }
 
@@ -13,7 +16,7 @@
 body {
   font-family: "Gilroy", sans-serif;
   font-weight: normal;
-  color: #070707;
+  color: black;
   font-size: 18px;
   line-height: 22px;
   transition: 0.3s;
@@ -39,7 +42,8 @@ p {
 img {
   display: block;
   margin: auto;
-  max-width: 100%;
+  width: 100%;
+  height: auto;
   pointer-events: none;
 }
 

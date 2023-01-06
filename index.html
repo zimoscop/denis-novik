@@ -4,61 +4,62 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Denis Novik</title>
+    <title>Denis Novic</title>
     <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
     <!-------- HOME----------->
-    <header class="home" id="Home">
-      <div class="conteiner">
-        <nav class="home__nav">
-          <a href="#Home">Home</a>
-          <a href="#Aboutme">About me</a>
-          <a href="#Skills">Skills</a>
-          <a href="#Portfolio">Portfolio</a>
-          <a href="#Contacts">Contacts</a>
-        </nav>
-
-        <nav class="burger__menu">
-          <input class="burger__check" type="checkbox" />
-          <div class="span">
-            <span class="burger__line"></span>
-            <span class="burger__line"></span>
-            <span class="burger__line"></span>
-          </div>
-          <ul class="burger__list">
-            <li>
-              <a href="#Home">Home</a>
-            </li>
-            <li>
-              <a href="#Aboutme">About me</a>
-            </li>
-            <li>
-              <a href="#Skills">Skills</a>
-            </li>
-            <li>
-              <a href="#Portfolio">Portfolio</a>
-            </li>
-            <li>
-              <a href="#Contacts">Contacts</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="home__titlebox">
-          <h1 class="home__title">Denis Novic</h1>
-          <p class="home__text">UX|UI designer 24&nbspyears old, Minsk</p>
-        </div>
-        <picture>
-          <source
-            srcset="./images/home_foto_adop.svg"
-            media="(max-width: 555px)"
-          />
-          <source srcset="./images/DN-home.svg" />
-          <img src="./images/DN-home.svg" alt="Main - foto" />
-        </picture>
-      </div>
+    <header class="conteiner">
+      <nav class="home__nav">
+        <a href="#Home">Home</a>
+        <a href="#Aboutme">About me</a>
+        <a href="#Skills">Skills</a>
+        <a href="#Portfolio">Portfolio</a>
+        <a href="#Contacts">Contacts</a>
+      </nav>
     </header>
     <main>
+      <section class="home" id="Home">
+        <div class="conteiner">
+          <nav class="burger__menu">
+            <input class="burger__check" type="checkbox" />
+            <div class="span">
+              <span class="burger__line"></span>
+              <span class="burger__line"></span>
+              <span class="burger__line"></span>
+            </div>
+            <ul class="burger__list">
+              <li>
+                <a href="#Home">Home</a>
+              </li>
+              <li>
+                <a href="#Aboutme">About me</a>
+              </li>
+              <li>
+                <a href="#Skills">Skills</a>
+              </li>
+              <li>
+                <a href="#Portfolio">Portfolio</a>
+              </li>
+              <li>
+                <a href="#Contacts">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="home__titlebox">
+            <h1 class="home__title">Denis Novic</h1>
+            <p class="home__text">UX|UI designer 24&nbspyears old, Minsk</p>
+          </div>
+          <picture>
+            <source
+              srcset="./images/home__fotomin.png"
+              media="(max-width: 600px)"
+            />
+            <source srcset="./images/home__fotobig.png" />
+            <img src="./images/home__fotobig.png" alt="Main - foto" />
+          </picture>
+        </div>
+      </section>
       <!-------- ABOUT ME----------->
       <section class="aboutme" id="Aboutme">
         <div class="conteiner">
@@ -171,25 +172,40 @@
           <div class="portfolio__box">
             <h2>Portfolio</h2>
             <div class="portfolio__mixbox">
-              <img src="./images/portfolio1.svg" alt="Levis_new_collection" />
+              <picture>
+                <source
+                  srcset="./images/portfolio__firstmin.png"
+                  media="(max-width: 400px)"
+                />
+                <source srcset="./images/portfolio__firstbig.png" />
+                <img src="./images/portfolio__firstbig.png" alt="Levis" />
+              </picture>
               <a class="portfolio__out" target="_blank" href="#"
                 >Online fashion store - Homepage
               </a>
             </div>
             <div class="portfolio__mixbox">
-              <img
-                src="./images/portfolioReebok.svg"
-                alt="Reebok_Store-Concept"
-              />
+              <picture>
+                <source
+                  srcset="./images/portfolio__secmin.png"
+                  media="(max-width: 400px)"
+                />
+                <source srcset="./images/portfolio__secbig.png" />
+                <img src="./images/portfolio__secbig.png" alt="Reebok_Store" />
+              </picture>
               <a class="portfolio__out" target="_blank" href="#"
                 >Reebok Store - Concept</a
               >
             </div>
             <div class="portfolio__mixbox">
-              <img
-                src="./images/portgolio3.svg"
-                alt="Braun_Landing_Page-Concept"
-              />
+              <picture>
+                <source
+                  srcset="./images/portfolio__trmin.png"
+                  media="(max-width: 400px)"
+                />
+                <source srcset="./images/portfolio__trbig.png" />
+                <img src="./images/portfolio__trbig.png" alt="Braun" />
+              </picture>
               <a class="portfolio__out" target="_blank" href=""
                 >Braun Landing Page - Concept</a
               >
