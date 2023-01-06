@@ -57,3 +57,9 @@
 .icons:last-child:hover {
   border-radius: 30px;
 }
+
+@media (max-width: 850px) {
+  .button {
+    width: 90%;
+  }
+}
