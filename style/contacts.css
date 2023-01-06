@@ -50,16 +50,10 @@
 .icons:hover {
   transform: translateY(-5px);
   transition: 0.3s;
-  border-radius: 13px;
-  background-color: rgb(197, 194, 194);
-}
-
-.icons:last-child:hover {
-  border-radius: 30px;
 }
 
 @media (max-width: 850px) {
   .button {
-    width: 90%;
+    width: 100%;
   }
 }

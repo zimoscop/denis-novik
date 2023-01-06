@@ -3,12 +3,17 @@
   padding: 120px 0 107px;
 }
 
-.aboutme__box {
-  max-height: 506px;
-  width: 485px;
+.aboutme__text {
   overflow: hidden;
-  margin: auto;
+  width: 485px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 43px;
+}
+
+@media (max-width: 611px) {
+  .aboutme__text {
+    width: 316px;
+  }
 }
