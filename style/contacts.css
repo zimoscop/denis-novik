@@ -28,6 +28,7 @@
   color: black;
   background-color: rgba(255, 255, 255, 1);
   border: 2px solid black;
+  transition: 0.3s;
 }
 
 .contacns__textend {

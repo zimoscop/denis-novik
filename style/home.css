@@ -1,5 +1,6 @@
 .home {
   padding-bottom: 104px;
+  transition: 0.3s;
 }
 
 .home__nav {
@@ -30,7 +31,7 @@
   text-align: left;
 }
 
-@media (max-width: 555px) {
+@media (max-width: 850px) {
   .home__nav {
     display: none;
   }
