@@ -3,7 +3,7 @@
   position: relative;
 }
 
-.span {
+.burger__lines {
   width: 30px;
   height: 30px;
   display: flex;
@@ -13,6 +13,22 @@
   top: 68px;
   right: 30px;
   z-index: 3;
+}
+
+.burger__check:checked ~ .burger__lines span:nth-child(1) {
+  opacity: 0;
+}
+
+.burger__check:checked ~ .burger__lines span:nth-child(2) {
+  background-color: rgba(130, 130, 130, 1);
+  transform: rotate(-135deg) translateY(-5px);
+  transition: 0.7s;
+}
+
+.burger__check:checked ~ .burger__lines span:nth-child(3) {
+  background-color: rgba(130, 130, 130, 1);
+  transform: rotate(135deg) translateY(5px);
+  transition: 0.7s;
 }
 
 .burger__line {

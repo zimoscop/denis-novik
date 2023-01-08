@@ -20,6 +20,8 @@
   border-radius: 20px;
   text-align: center;
   border: none;
+  display: block;
+  margin: 0 auto;
 }
 
 .button:hover {
@@ -32,11 +34,11 @@
 .contacns__textend {
   height: 34px;
   width: 243px;
-  padding: 45px 0 123px;
   color: rgba(130, 130, 130, 1);
   font-size: 14px;
   line-height: 17px;
   margin: auto;
+  margin-top: 45px;
 }
 
 .contacts__flex {
