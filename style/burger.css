@@ -49,7 +49,7 @@
 
 .burger__check:checked ~ .burger__list {
   transform: translateX(0);
-  transition: 1s;
+  transition: 1.3s;
 }
 
 .burger__list {
