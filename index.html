@@ -9,14 +9,16 @@
   </head>
   <body>
     <!-------- HOME----------->
-    <header class="conteiner">
-      <nav class="home__nav">
-        <a href="#Home">Home</a>
-        <a href="#Aboutme">About me</a>
-        <a href="#Skills">Skills</a>
-        <a href="#Portfolio">Portfolio</a>
-        <a href="#Contacts">Contacts</a>
-      </nav>
+    <header>
+      <div class="conteiner">
+        <nav class="home__nav">
+          <a href="#Home" class="nav__link">Home</a>
+          <a href="#Aboutme" class="nav__link">About me</a>
+          <a href="#Skills" class="nav__link">Skills</a>
+          <a href="#Portfolio" class="nav__link">Portfolio</a>
+          <a href="#Contacts" class="nav__link">Contacts</a>
+        </nav>
+      </div>
     </header>
     <main>
       <section class="home" id="Home">
@@ -47,8 +49,8 @@
             </ul>
           </nav>
           <div class="home__titlebox">
-            <h1 class="home__title">Denis Novic</h1>
-            <p class="home__text">UX | UI designer 24&nbspyears old, Minsk</p>
+            <h1 class="home__title">Denis Novik</h1>
+            <p class="home__text">UX | UI designer 24&nbsp;years old, Minsk</p>
           </div>
           <picture>
             <source
@@ -63,25 +65,23 @@
       <!-------- ABOUT ME----------->
       <section class="aboutme" id="Aboutme">
         <div class="conteiner">
-          <!-- <div class="aboutme__box"> -->
           <div class="aboutme__text">
             <h2>About me</h2>
             <p>
               Hi, I'm Denis – UX/UI designer from Minsk.
-              I'm&nbspinterested&nbspin&nbspdesign and everything connected with
-              it.
+              I'm&nbsp;interested&nbsp;in&nbsp;design and everything connected
+              with it.
             </p>
             <p>
-              I'm&nbspstudying&nbspat&nbspcourses
-              "Web&nbspand&nbspmobile&nbspdesign&nbspinterfaces"
-              in&nbspIT-&nbspAcademy.
+              I'm&nbsp;studying&nbsp;at&nbsp;courses
+              "Web&nbsp;and&nbsp;mobile&nbsp;design&nbsp;interfaces"
+              in&nbsp;IT-&nbsp;Academy.
             </p>
             <p>
               Ready to implement excellent projects
-              with&nbspwonderful&nbsppeople.
+              with&nbsp;wonderful&nbsp;people.
             </p>
           </div>
-          <!-- </div> -->
         </div>
       </section>
       <!-------- SKILLS----------->
@@ -233,26 +233,18 @@
             <button type="button" class="button">Send message</button>
           </form>
           <div class="contacts__flex">
-            <div class="icons">
-              <a href="#">
-                <img src="./images/contactsIn.svg" alt="LinkedIn" />
-              </a>
-            </div>
-            <div class="icons">
-              <a href="#">
-                <img src="./images/contsctsInsta.svg" alt="Instagram" />
-              </a>
-            </div>
-            <div class="icons">
-              <a href="#">
-                <img src="./images/contactsBe.svg" alt="Behance" />
-              </a>
-            </div>
-            <div class="icons">
-              <a href="#">
-                <img src="./images/contactsBol.svg" alt="Dribble" />
-              </a>
-            </div>
+            <a href="#" class="icons">
+              <img src="./images/contactsIn.svg" alt="LinkedIn" />
+            </a>
+            <a href="#" class="icons">
+              <img src="./images/contsctsInsta.svg" alt="Instagram" />
+            </a>
+            <a href="#" class="icons">
+              <img src="./images/contactsBe.svg" alt="Behance" />
+            </a>
+            <a href="#" class="icons">
+              <img src="./images/contactsBol.svg" alt="Dribble" />
+            </a>
           </div>
           <p class="contacns__textend">
             Like me on LinkedIn,&nbspInstagram,&nbspBehance, Dribble

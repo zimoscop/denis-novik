@@ -18,6 +18,7 @@
   background-color: black;
   color: rgba(255, 255, 255, 1);
   border-radius: 20px;
+  font-weight: 700;
   text-align: center;
   border: none;
   display: block;
@@ -42,9 +43,14 @@
 }
 
 .contacts__flex {
+  height: 40px;
   display: flex;
   justify-content: space-between;
   margin-top: 79px;
+}
+
+.icons {
+  transition: 0.3s;
 }
 
 .icons:hover {
@@ -55,5 +61,8 @@
 @media (max-width: 850px) {
   .button {
     width: 100%;
+  }
+  .contacts {
+    padding: 82px 0 90px;
   }
 }

@@ -12,8 +12,11 @@
   gap: 43px;
 }
 
-@media (max-width: 611px) {
+@media (max-width: 540px) {
   .aboutme__text {
     width: 316px;
+  }
+  .aboutme {
+    padding: 81px 0 76px;
   }
 }

@@ -1,13 +1,17 @@
 header {
-  padding: 33px 0 33px;
-  border-bottom: 1px solid rgba(130, 130, 130, 1);
+  padding: 33px 0 41px;
 }
 
 .home__nav {
-  height: 24px;
   color: rgba(130, 130, 130, 1);
   display: flex;
   justify-content: space-between;
+  font-weight: 700;
+  border-bottom: 1px solid rgba(130, 130, 130, 1);
+}
+
+.nav__link {
+  padding-bottom: 41px;
 }
 
 .home {
@@ -17,7 +21,7 @@ header {
 .home__titlebox {
   display: flex;
   justify-content: space-between;
-  margin: 30px 0 40px;
+  margin-bottom: 40px;
 }
 
 .home__title {
@@ -39,7 +43,8 @@ header {
 
   .home__titlebox {
     flex-direction: column;
-    margin-left: 26px;
+    gap: 23px;
+    /* margin-left: 26px; */
   }
 
   .home {
