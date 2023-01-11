@@ -17,6 +17,7 @@
 
 .burger__check:checked ~ .burger__lines span:nth-child(1) {
   opacity: 0;
+  transition: 0.3s;
 }
 
 .burger__check:checked ~ .burger__lines span:nth-child(2) {
@@ -35,6 +36,7 @@
   width: 30px;
   height: 4px;
   background-color: black;
+  transition: 0.7s;
 }
 
 .burger__check {
@@ -45,6 +47,7 @@
   height: 30px;
   opacity: 0;
   z-index: 5;
+  cursor: pointer;
 }
 
 .burger__check:checked ~ .burger__list {
