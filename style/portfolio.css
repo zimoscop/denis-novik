@@ -20,3 +20,12 @@
 .portfolio__out:hover {
   color: rgba(130, 130, 130, 1);
 }
+
+@media (max-width: 850px) {
+  .portfolio__box {
+    gap: 70px;
+  }
+  .portfolio__out {
+    margin-top: 33px;
+  }
+}

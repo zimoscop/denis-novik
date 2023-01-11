@@ -65,4 +65,7 @@
   .contacts {
     padding: 82px 0 90px;
   }
+  .contacts__text {
+    margin: 33px 0 40px;
+  }
 }
